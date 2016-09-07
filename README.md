@@ -1,4 +1,4 @@
-# Commercial_Control_System - Sistema de Controle Comercial
+# Commercial_Control_System - Sistema_de_Controle_Comercial
 It's a prototype program (for learning purposes) written in PHP, using Apache server and MySQL. It keeps under track all the sales, purchases, suppliers, employees and customers informations - É um programa de protótipo (para fins de aprendizagem) escrito em PHP, utilizando um servidor Apache e MySQL. Ele mantém sob controle todas as vendas, compras, fornecedores, funcionários e informações de clientes
 
 
