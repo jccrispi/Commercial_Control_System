@@ -10,12 +10,12 @@ User: "user"
 Password: "12345"
 
 So, for XAMPP, after install it, please do the following:
-> Start on the XAMPP's control panel: Apache and MySQL
-> In front of MySQL, Click on button "Admin" in order to add the database
-> It's going to open a Web browser. On the left side click on "new", fill the field name "projeto1" and hit create button
+> Start on the XAMPP's control panel: Apache and MySQL.
+> In front of MySQL, Click on button "Admin" in order to add the database.
+> It's going to open a Web browser. On the left side click on "new", fill the field name "projeto1" and hit create button.
 > Go to "import" tab and hit "choose a file", select "projeto1.sql" that you got from Github and hit "execute". Sometimes it gives some errors, in case it happens, just do it again.
 > Go to C:\xampp\htdocs, copy everything inside it, create a new folder (e.g. "docs"), and paste all the stuff you've had copied.
-> Copy all php files and others files you got from Github (the php_files folder) and paste them in C:\xampp\htdocs
+> Copy all php files and others files you got from Github (the php_files folder) and paste them in C:\xampp\htdocs.
 
 And you're all set! Now just open up a web browser and type "localhost" or 127.0.0.1
 You can also check your IP address (from the server) and access it from any other computer from the same network, just by opening the Web browser and typing the IP address from the server.
@@ -30,12 +30,12 @@ Usuário: "user"
 Password: "12345"
 
 Assim, para o XAMPP, depois de realizar a instalação, por favor faça o seguinte:
-> Iniciar no painel de controle do XAMPP: Apache e MySQL
-> Na frente do MySQL, clique no botão "Admin", a fim de adicionar o banco de dados
-> Vai abrir um navegador da Web. Clique no lado esquerdo em "nova", preencha o nome do campo "projeto1" e aperte o botão criar
+> Iniciar no painel de controle do XAMPP: Apache e MySQL.
+> Na frente do MySQL, clique no botão "Admin", a fim de adicionar o banco de dados.
+> Vai abrir um navegador da Web. Clique no lado esquerdo em "nova", preencha o nome do campo "projeto1" e aperte o botão criar.
 > Vá para a aba "importação" e clique em "escolher um arquivo", selecione "projeto1.sql" que você obteve no Github e clique em "executar". Às vezes ele dá alguns erros, caso isso aconteça, basta repetir o processo de importação.
 > Vá para C:\xampp\htdocs, copie tudo dentro dele, crie uma nova pasta (por exemplo, "docs"), e cole todas as coisas que você tinha copiado.
-> Copie todos os arquivos PHP e demais que você obteve de Github (a pasta php_files) e cole-os em C:\xampp\htdocs
+> Copie todos os arquivos PHP e demais que você obteve de Github (a pasta php_files) e cole-os em C:\xampp\htdocs.
 
 E está tudo pronto! Agora basta abrir um navegador e digitar "localhost" ou 127.0.0.1
 Você também pode verificar o seu endereço IP (do servidor) e acessá-lo de qualquer outro computador da mesma rede, apenas abrindo o navegador da Web e digitando o endereço IP do servidor.
