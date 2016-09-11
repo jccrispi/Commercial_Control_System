@@ -25,7 +25,7 @@ Hopefully soon I am going to post a link for a Youtube video that I am doing for
 Thank you all!
 
 
-###############
+-
 
 
 Este é um projeto que eu fiz para a minha faculdade no Brasil como um trabalho a ser avaliado. Então eu decidi colocá-lo aqui. Dessa forma, as pessoas podem usá-lo, e talvez melhorá-lo. Foi feito em PHP após que eu ter aprendido essa linguagem por um semestre na faculdade. Apesar de o meu foco estar em infraestrutura de rede, eu aprendi alguns conceitos de programação, o que é ótimo. Eu realmente amo isso!
