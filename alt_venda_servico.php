@@ -19,35 +19,41 @@ $codvenda = $_POST['codvend'];
 $servalt = $_POST['servalt'];
 $novoserv = $_POST['novoserv'];
 
-
-$sql = "SELECT COUNT(*) QTDE  FROM recai where codvenda = $codvenda and codservico = $novoserv";
-$resultado = $conexao->query($sql);
-foreach($resultado as $valor)
-{
-	$qtdeprod = $valor['QTDE'];
-}	
-if($qtdeprod >= 1){
-	echo  "<h2>This service is already selected!</h2>";
-	echo "<a href='form_altvendaserv.php' target='principal'><h2>Voltar</h2></a>";
-}
-else{
-
-	if(!$novoserv) {
-		echo  "<h2>Select a service!</h2>";
-		echo "<a href='form_altvendaserv.php' target='principal'><h2>Voltar</h2></a>";
+if($codvenda && $servalt && $novoserv){
+	$sql = "SELECT COUNT(*) QTDE  FROM recai where codvenda = $codvenda and codservico = $novoserv";
+	$resultado = $conexao->query($sql);
+	foreach($resultado as $valor)
+	{
+		$qtdeprod = $valor['QTDE'];
+	}	
+	if($qtdeprod >= 1){
+		echo  "<h2>This service is already selected!</h2>";
+		echo "<a href='form_altvendaserv.php' target='principal'><h2>Back</h2></a>";
 	}
 	else{
-		$sql = "UPDATE recai SET codservico = $novoserv WHERE  codvenda = $codvenda and codservico = $servalt";
-		$resultado = $conexao->exec($sql);
-		if(!$resultado){
-		echo "<h2>Error in execution</h2>";
-		echo "<a href='form_altvendaserv.php' target='principal'><h2>Voltar</h2></a>";
+
+		if(!$novoserv) {
+			echo  "<h2>Select a service!</h2>";
+			echo "<a href='form_altvendaserv.php' target='principal'><h2>Back</h2></a>";
 		}
-		else {
-		echo "<h2>Changed successfully!</h2>";
-		echo "<a href='form_altvendaserv.php' target='principal'><h2>Nova alteração</h2></a>";
+		else{
+			$sql = "UPDATE recai SET codservico = $novoserv WHERE  codvenda = $codvenda and codservico = $servalt";
+			$resultado = $conexao->exec($sql);
+			if(!$resultado){
+			echo "<h2>Error in execution</h2>";
+			echo "<a href='form_altvendaserv.php' target='principal'><h2>Back</h2></a>";
+			}
+			else {
+			echo "<h2>Changed successfully!</h2>";
+			echo "<a href='form_altvendaserv.php' target='principal'><h2>New Changing</h2></a>";
+			}
 		}
 	}
+}
+else
+{
+	echo "<h2>Please fill out all the fields!</h2>";
+	echo "<a href='form_altvendaserv.php' target='principal'><h2>Back</h2></a>";	
 }
 ?>
 

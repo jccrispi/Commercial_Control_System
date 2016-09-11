@@ -19,18 +19,24 @@ $codigo = $_POST['codigo'];
 $descricao = $_POST['descricao'];
 $precoserv = $_POST['precoserv'];
 
-$sql="UPDATE servico SET descricaoserv ='$descricao', precserv='$precoserv' WHERE codigoserv = $codigo";
-$resultado = $conexao->exec($sql);
-if(!$resultado){
-echo "<h2>Error in execution</h2>";
-echo "<a href='alt_serv.php' target='principal'><h1>Back</h1></a>";
+if($codigo && $descricao && $precoserv){
+	$sql="UPDATE servico SET descricaoserv ='$descricao', precserv='$precoserv' WHERE codigoserv = $codigo";
+	$resultado = $conexao->exec($sql);
+	if(!$resultado){
+	echo "<h2>Error in execution</h2>";
+	echo "<a href='alt_serv.php' target='principal'><h1>Back</h1></a>";
+	}
+	else
+	{
+	echo "<h2>Successfully Changed!</h2>";	
+	echo "<a href='alt_serv.php' target='principal'><h1>Back</h1></a>";
+	}
 }
 else
 {
-echo "<h2>Successfully Changed!</h2>";	
-echo "<a href='alt_serv.php' target='principal'><h1>Back</h1></a>";
+	echo "<h2>Please fill out all the fields!</h2>";
+	echo "<a href='alt_serv.php' target='principal'><h1>Back</h1></a>";
 }
-
 ?>
 </body>
 </html>

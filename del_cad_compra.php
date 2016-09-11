@@ -112,7 +112,7 @@ else {
 		}
 	}
 	else{
-		echo  "<h2>Product / purchase not located!</h2>";
+		echo  "<h2>Product / purchase not found!</h2>";
 		echo "<a href='del_compra.php' target='principal'><h2>Back</h2></a>";
 	}
 }
