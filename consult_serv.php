@@ -5,6 +5,6 @@
 <form method="post" action="consult_cad_serv.php">
 Service Description:<br>
 <input type="text" name="descricao" /><br>
-<p><input type="submit" value="Pesquisar"/></p>
+<p><input type="submit" value="Search"/></p>
 </body>
 </html>

@@ -8,7 +8,7 @@ $hora = gmdate("m/d/Y - H:i:s", $time);
 echo "<h3>  $hora </h3>";
 ?>
 <form method="post" action="cad_venda.php"> 
-<p>Cliente:<span style="padding-left:8px"></span>
+<p>Customer:<span style="padding-left:8px"></span>
 <select name="cliente">
 <option value="0" selected="selected">Select the Customer</option>
         <?php

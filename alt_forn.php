@@ -33,6 +33,6 @@ District <input type="text" name="bairro" /><br>
            ?>
 </select></p>
 ZIP CODE <input type="text" name="cep" /><br>
-<p><input type="submit" value="Alterar"/></p>
+<p><input type="submit" value="Change"/></p>
 </body>
 </html>

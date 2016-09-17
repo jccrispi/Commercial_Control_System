@@ -5,6 +5,6 @@
 <form method="post" action="consult_cad_forn.php">
 Supplier Name:<br>
 <input type="text" name="nome" /><br>
-<p><input type="submit" value="Pesquisar"/></p>
+<p><input type="submit" value="Search"/></p>
 </body>
 </html>

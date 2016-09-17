@@ -20,24 +20,20 @@ $descricao = $_POST['descricao'];
 $precocusto = $_POST['precocusto'];
 $preco = $_POST['preco'];
 
-if($codigo && $descricao && $precocusto && $preco){
-	$sql ="UPDATE mercadoria SET descricaomercad ='$descricao', precmercad='$preco', preccusto='$precocusto' WHERE ";
-	$sql .=" codigomercad = $codigo ";
-	$resultado = $conexao->exec($sql);
-	if(!$resultado){
-	echo "<h2>Error in execution</h2>";
-	echo "<a href='alt_mercad.php' target='principal'><h1>Back</h1></a>";
-	}
-	else
-	{
-	echo "<h2>Changed successfully!</h2>";	
-	echo "<a href='alt_mercad.php' target='principal'><h1>Back</h1></a>";
-	}
+
+$sql ="UPDATE mercadoria SET descricaomercad ='$descricao', precmercad='$preco', preccusto='$precocusto' WHERE ";
+$sql .=" codigomercad = $codigo ";
+$resultado = $conexao->exec($sql);
+if(!$resultado){
+echo "<h2>Error in execution</h2>";
+echo "<a href='alt_mercad.php' target='principal'><h1>Back</h1></a>";
+}
 else
 {
-	echo "<h2>Please fill out all the fields!</h2>";
-	echo "<a href='alt_mercad.php' target='principal'><h1>Back</h1></a>";
+echo "<h2>Changed successfully!</h2>";	
+echo "<a href='alt_mercad.php' target='principal'><h1>Back</h1></a>";
 }
+
 ?>
 </body>
 </html>

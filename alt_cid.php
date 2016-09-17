@@ -8,6 +8,6 @@ City code to be changed:<br>
 <input type="text" name="codigo" /><br><br>
 Enter the new city name:<br> 
 <input type="text" name="nome" /><br>
-<p><input type="submit" value="Alterar"/></p>
+<p><input type="submit" value="Change"/></p>
 </body>
 </html>

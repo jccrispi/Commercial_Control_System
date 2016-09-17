@@ -49,7 +49,7 @@ a:active {
 <p>Amount:<span style="padding-left:16px"></span>
 <input type="text" name="qtde"/></p><br>
 
-<input type="submit" value="ALTERAR" /><br>
+<input type="submit" value="Change" /><br>
 
 </form>
 </body>

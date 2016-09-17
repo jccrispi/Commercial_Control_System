@@ -9,6 +9,6 @@ Enter the new service description:<br>
 <input type="text" name="descricao" /><br>
 Enter the service price:<br> 
 <input type="text" name="precoserv" /><br>
-<p><input type="submit" value="Alterar"/></p>
+<p><input type="submit" value="Change"/></p>
 </body>
 </html>

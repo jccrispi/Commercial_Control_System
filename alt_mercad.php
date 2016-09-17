@@ -11,6 +11,6 @@ Cost price:
 <input type="text" name="precocusto" /><br><br>
 Price for sale:
 <input type="text" name="preco" /><br><br>
-<p><input type="submit" value="Alterar"/></p>
+<p><input type="submit" value="Change"/></p>
 </body>
 </html>

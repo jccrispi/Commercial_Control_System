@@ -78,7 +78,7 @@ if($codvenda && $prodalt && $prodnovo && $qtdenovo){
 	}
 }
 else{
-		echo "<h2>Please fill out all the fields!</h2>";
+		echo "<h2>Please, fill all the fields!</h2>";
 		echo "<a href='form_altvendamercad.php' target='principal'><h2>Back</h2></a>";	
 }
 ?>
