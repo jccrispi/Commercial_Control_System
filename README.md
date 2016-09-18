@@ -31,6 +31,8 @@ Thank you all!
 NOTA: A versão em português está neste repositório:
 https://github.com/jccrispi/Sistema_de_Controle_Comercial.git
 
+Eu fiz este tutorial em vídeo para uma melhor explicação sobre como instalar e também sobre como o programa funciona. Caso não sejam mostradas as legendas, por favor, clique em CC (Legendas/Closed Caption) no YouTube -  https://youtu.be/wmxzuzl-9jk
+
 Este é um projeto que eu fiz para a minha faculdade no Brasil como um trabalho a ser avaliado. Então eu decidi colocá-lo aqui. Dessa forma, as pessoas podem usá-lo, e talvez melhorá-lo. Foi feito em PHP após que eu ter aprendido essa linguagem por um semestre na faculdade. Apesar de o meu foco estar em infraestrutura de rede, eu aprendi alguns conceitos de programação, o que é ótimo. Eu realmente amo isso!
 Eu fiz isso em Linux e Windows e há várias maneiras de fazê-lo funcionar. Ele pode ser instalado separadamente: MySQL, Apache e PHP, ou a fim de torná-lo mais fácil, basta baixar e instalar o XAMPP: https://www.apachefriends.org. Isso é no caso de você estar usando o Windows, para Linux o mais fácil é WAMPServer http://www.wampserver.com/en/.
 
